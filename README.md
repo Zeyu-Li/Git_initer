@@ -10,6 +10,10 @@ To use, simple put:
 
 ```powershell
 bash cmt.sh #some commit message
+
+OR
+
+bash cmt #some commit message
 ```
 
 
@@ -17,10 +21,11 @@ bash cmt.sh #some commit message
 Code:
 
 ```shell
+#!/bin/bash
+
 commit_message=$1
 
-
-
 (git init && git add . && git commit -m\"$commit_message\")
+
 ```
 

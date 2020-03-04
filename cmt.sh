@@ -1,3 +1,4 @@
+#!/bin/bash
 
 commit_message=$1
 
