@@ -1,4 +1,4 @@
-# Git Shell
+# Git Initer
 
 This Shell Script command inits, adds, and commits the current directory given a first commit message
 
